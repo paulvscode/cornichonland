@@ -116,10 +116,20 @@ html, body {
     padding: 1rem;
 }
 
+.header__title:hover {
+    color: #2d6187;
+    transition: color .900ms linear;
+    text-shadow: none;
+}
+
 .logo {
     width: 2.3%;
     order: -1;
 }
+
+/* nav */
+
+
 
 /* footer */
 
@@ -136,14 +146,14 @@ html, body {
     border-right: none;
 }
 
-/* Description */
+/* Contenu et description */
 
 .content__title {
     font-size: 1.3rem;
     color: white;
     padding: 1rem;
     border-radius: 10px;
-    border: 0.5px solid white;
+    border: 2px solid #2d6187;
     margin: 1rem;
     border-right: none;
     border-left: none;
@@ -153,9 +163,32 @@ html, body {
 
 .content__description {
     padding: 1rem;
-
+    color: black;
+    background-color: #CCC;
+    margin: 1rem;
+    border: 2px solid #2d6187;
+    
 }
 
-content__list
+.content__list {
+    padding: 1rem;
+    color: black;
+    background-color: #CCC;
+    margin: 1rem;
+    border: 2px solid #2d6187;
+    list-style: decimal;
+}
 
-list__quality
+.list__quality {
+    margin: 1rem;
+}
+
+.container__img__team {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* animations, transitions */
+
