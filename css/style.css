@@ -2,9 +2,10 @@
 
 body {
     font-family: sans-serif;
-    background-color: #d2d3c9;
     display: flex;
     flex-direction: column;
+    background-image: url("https://www.ernestturcboutique.com/7306/cornichon-fin-de-meaux.jpg");
+
 }
 
 html, body {
@@ -15,8 +16,7 @@ html, body {
 
 .content {
     flex: 1 0 auto;
-    background-image: url("https://www.ernestturcboutique.com/7306/cornichon-fin-de-meaux.jpg");
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -182,23 +182,28 @@ html, body {
 }
 
 .content__img__description {
-    background-color: tomato;
+    color: black;
+    border: 2px solid #2d6187;
+    height: 100%;
+}
+
+.content__description {
     padding: 1rem;
     color: black;
-    background-color: #CCC;
     margin: 1rem auto;
     border: 2px solid #2d6187;
-    width: 90%;
 }
 
 .container__content__description {
     width: 60%;
     margin: 0 auto;
+    padding: 0 0 0 1rem;
 }
 
 .container__content__img {
     width: 40%;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 .content__title {
@@ -210,16 +215,6 @@ html, body {
     margin: 1rem;
     background-color: #a8dda8;
     text-shadow: 2px 0px 5px rgba(0,0,0,1);
-}
-
-.content__description {
-    padding: 1rem;
-    color: black;
-    background-color: #CCC;
-    margin: 1rem auto;
-    border: 2px solid #2d6187;
-    width: 90%;
-    
 }
 
 .content__list {
