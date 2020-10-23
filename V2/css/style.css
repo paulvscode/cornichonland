@@ -159,6 +159,30 @@ img {
     list-style-position: inside;
 }
 
+.section__why__container__list-random-advantage {
+    display: flex;
+}
+
+/* random advantage */
+
+.section__why__random-advantage {
+    align-self: center;
+    margin-left: 2.5em;
+    padding: 1em;
+    font-size: 1.2em;
+    background-color: rgb(224, 224, 224);
+    border-radius: 20px;
+    transition: color .5s;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.section__why__random-advantage:hover {
+    color: white;
+    background-color: #907215;
+}
+
+
 .section__pictures {
     display: flex;
     margin: 1rem 0;
@@ -315,3 +339,16 @@ img {
 /* .div__form__label {
     margin: 1rem 0 0 0;
 } */
+
+.content__add-button {
+    border: 1px solid #907215;
+    border-radius: 10px;
+    width: 13%;
+    background-color: white;
+    height: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: absolute;
+    margin: 2em;
+    cursor: pointer;
+}
