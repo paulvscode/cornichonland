@@ -380,4 +380,17 @@ img {
         flex-direction: column;
         justify-content: space-evenly;
     }
+    .section__products__article {
+        width: 70%;
+    }
+    .content__add-button{
+        left: -1rem;
+        margin: 6rem 0 0 2rem;
+        font-size: 0.5em;
+    }
+    .content__rmv-button{
+        left: -1rem;
+        font-size: 0.5em;
+    }
 }
+
