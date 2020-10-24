@@ -367,3 +367,17 @@ img {
     margin: 8rem 0 0 2rem;
     cursor: pointer;
 }
+
+@media (min-width: 1400px) {
+    .container__content {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .header {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
