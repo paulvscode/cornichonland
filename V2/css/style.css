@@ -341,14 +341,29 @@ img {
 } */
 
 .content__add-button {
+    top: 0;
+    left: 0;
     border: 1px solid #907215;
     border-radius: 10px;
     width: 13%;
     background-color: white;
     height: 2rem;
     font-weight: 600;
-    margin-bottom: 2rem;
+    margin: 5rem 0 0 2rem;
     position: absolute;
-    margin: 2em;
+    cursor: pointer;
+}
+
+.content__rmv-button {
+    top: 0;
+    left: 0;
+    border: 1px solid #907215;
+    border-radius: 10px;
+    width: 13%;
+    background-color: white;
+    height: 2rem;
+    font-weight: 600;
+    position: absolute;
+    margin: 8rem 0 0 2rem;
     cursor: pointer;
 }
