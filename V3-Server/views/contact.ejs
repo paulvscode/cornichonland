@@ -1,0 +1,29 @@
+<%- include('../views/partials/header'); %>
+
+<div class="container__content">
+    
+    <div class="container__content__form">
+        <form class="content__form" action="#">
+
+            <div class="div__form">
+                <label class="div__form__label" for="name">Nom :</label>
+                <input class="input__size" type="text" id="name" name="user_name"> 
+            </div>
+            <div class="div__form">
+                <label class="div__form__label" for="mail">E-mail :</label>
+                <input class="input__size" type="text" id="mail" name="user_mail">
+            </div>
+            <div class="div__form">
+                <label class="div__form__label" for="msg">Message :</label>
+                <textarea class="text__area" id="msg" name="user_mail"></textarea>
+            </div>
+            <div class="button div__form">
+                <button class="button__send" type="submit">Send message</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+</div>
+
+<%- include('../views/partials/footer'); %>
