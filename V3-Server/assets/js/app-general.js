@@ -6,7 +6,6 @@ btn.addEventListener("click", function () {
     document.body.style.backgroundImage = "url(https://i.imgur.com/EaaHUWF.jpg)";
 });
 
-
 var randomAdvantage = document.getElementById("section__why__random-advantage");
 randomAdvantage.addEventListener("click", randomA);
 
@@ -54,4 +53,7 @@ function rand(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
 }
 
+// loading
 
+window.addEventListener("DOMContentLoaded", () => {
+});
