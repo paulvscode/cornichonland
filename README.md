@@ -1,3 +1,3 @@
 # cornichonland
 
-Test d'intégration type e-commerce, avec des cornichons.
+Test d'intégration basique HTML, CSS, flexbox, avec des cornichons.
