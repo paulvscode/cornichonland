@@ -1,2 +1,3 @@
 # cornichonland
-I am selling pickles
+
+Test d'intégration type e-commerce, avec des cornichons.
